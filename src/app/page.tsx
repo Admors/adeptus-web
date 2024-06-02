@@ -3,7 +3,7 @@ import { Teams } from './teams';
 
 export default function Home() {
   return (
-    <main>
+    <main className='flex-1'>
       <Teams />
     </main>
   );

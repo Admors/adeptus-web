@@ -15,7 +15,7 @@ export function Teams() {
       <section className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
         {team.map((member) => (
           <article className="flex flex-col items-center" key={member.id}>
-            <img className="rounded-full h-28" src={member.iconURL} alt="staff" />
+            <img className="rounded-full h-32" src={member.iconURL} alt="staff" />
             <h3 className="text-lg font-semibold mt-2">{member.name}</h3>
             <span className="text-sm">{member.role}</span>
           </article>

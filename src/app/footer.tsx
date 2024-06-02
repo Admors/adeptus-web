@@ -1,7 +1,9 @@
+let year: number = new Date().getFullYear();
+
 export function Footer() {
     return (
       <footer>
-        <p className="text-center">Copyright &copy; 2024 - Adeptus TEAM </p>
+        <p className="text-center">Copyright &copy; {year} - Adeptus TEAM </p>
       </footer>
     ); 
   }
