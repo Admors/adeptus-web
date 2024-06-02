@@ -3,6 +3,8 @@ import { Teams } from './teams';
 
 export default function Home() {
   return (
-    <main></main>
+    <main>
+      <Teams />
+    </main>
   );
 }

@@ -1,0 +1,41 @@
+{
+    "team": [
+      {
+        "id": 1,
+        "name": "CC 5893 RED",
+        "iconURL": "https://avatars.githubusercontent.com/u/91902158?v=4",
+        "role": "Administrateur"
+      },
+      {
+        "id": 2,
+        "name": "CC 4561 SixOne",
+        "iconURL": "/avatar/a-sixone.gif",
+        "role": "Administrateur"
+      },
+      {
+        "id": 3,
+        "name": "CC 3737 Spearhead",
+        "iconURL": "/avatar/a-spearhead.jpg",
+        "role": "Administrateur"
+      },
+      {
+        "id": 4,
+        "name": "CS 9918 Ankh",
+        "iconURL": "/avatar/a-ankh.png",
+        "role": "Superviseur"
+      },
+      {
+        "id": 5,
+        "name": "CS-M 2319 Sting",
+        "iconURL": "/avatar/a-sting.jpg",
+        "role": "Modérateur"
+      },
+      {
+        "id": 6,
+        "name": "CV 0301 Phantom",
+        "iconURL": "/avatar/a-phantom.jpg",
+        "role": "Superviseur"
+      }
+    ]
+  }
+  

@@ -1,61 +1,26 @@
+import teamData from './data/users.json';
+
 export function Teams() {
-    return (
-        <section id="team">
-          <h2>équipe</h2>
-          <p>
-            Notre équipe de staff dévouée assure une expérience de jeu fluide et
-            agréable.
-          </p>
-          <section>
-            <article>
-              <img
-                src="https://avatars.githubusercontent.com/u/91902158?v=4"
-                alt="staff"
-              />
-              <h3>CC 5893 Red</h3>
-              <span>Administrateur</span>
-            </article>
-            <article>
-              <img
-                src="avatar/a-spearhead.jpg"
-                alt="staff"
-              />
-              <h3>CL 3737 Spearhead</h3>
-              <span>Administrateur</span>
-            </article>
-            <article>
-              <img
-                src="avatar/a-sixone.gif"
-                alt="staff"
-              />
-              <h3>CC 4561 SixOne</h3>
-              <span>Administrateur</span>
-            </article>
-            <article>
-              <img
-                src="avatar/a-ankh.png"
-                alt="staff"
-              />
-              <h3>CS 9918 Ankh</h3>
-              <span>Superviseur</span>
-            </article>
-            <article>
-              <img
-                src="avatar/a-sting.jpg"
-                alt="staff"
-              />
-              <h3>CS-M 2319 Sting</h3>
-              <span>Modération</span>
-            </article>
-            <article>
-              <img
-                src="avatar/a-phantom.jpg"
-                alt="staff"
-              />
-              <h3>CV 0301 Phantom</h3>
-              <span>Superviseur</span>
-            </article>
-          </section>
-        </section>
-    );
-  }
+  const team = teamData.team;
+
+  return (
+    <section id="team" className="container mx-auto px-4">
+      <div className="text-center">
+        <h2 className="text-2xl font-bold mb-4">Équipe</h2>
+        <p className="mb-8">
+          Notre équipe de staff dévouée assure une expérience de jeu fluide et
+          agréable.
+        </p>
+      </div>
+      <section className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+        {team.map((member) => (
+          <article className="flex flex-col items-center" key={member.id}>
+            <img className="rounded-full h-28" src={member.iconURL} alt="staff" />
+            <h3 className="text-lg font-semibold mt-2">{member.name}</h3>
+            <span className="text-sm">{member.role}</span>
+          </article>
+        ))}
+      </section>
+    </section>
+  );
+}
