@@ -1,10 +1,8 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { faDiscord } from '@fortawesome/free-brands-svg-icons';
 import "./globals.css";
 import { Header } from "./header";
 import { Footer } from "./footer";
-
-const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Adeptus TEAM - New UI",
