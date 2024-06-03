@@ -2,6 +2,18 @@
     <h1>Adeptus WEB</h1>
 </div>
 
+## 📑 Note(s)
+
+```
+git clone https://github.com/Admors/adeptus-web.git your-app-name
+```
+```
+npm install
+```
+```
+npm run dev
+```
+
 ## 💻 Technologie
 <div align='center'>
     <img src="https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white"/>
