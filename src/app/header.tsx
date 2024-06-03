@@ -5,13 +5,14 @@ export function Header() {
   return (
     <header className="bg-transparent fixed w-full top-0 z-10">
       <div className="container mx-auto flex justify-between items-center py-4">
-        <a href="index.html" className="flex items-center">
+        <a href="/" className="flex items-center">
           <img className="w-12" src="logo.png" alt="LogoHeader"/>
           <span className="text-white ml-2">61St Adeptus TEAM</span>
         </a>
         <nav className="text-white flex items-center">
           <ul className="uppercase flex mr-auto">
             <li><a href="#home" className="mr-6">Accueil</a></li>
+            <li><a href="/details" className="mr-6">Détails</a></li>
             <li><a href="#team" className="mr-6">Équipe</a></li>
           </ul>
           <ul className="flex items-center">
